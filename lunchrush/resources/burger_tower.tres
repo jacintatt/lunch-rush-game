@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="TowerData" load_steps=2 format=3 uid="uid://b64vn4rn8ph1y"]
+
+[ext_resource type="Script" uid="uid://dfcdqhlmfb1af" path="res://resources/tower_data.gd" id="1_3ld7v"]
+
+[resource]
+script = ExtResource("1_3ld7v")
+tower_name = "Burger Tower"
+base_cost = 0
+base_attack_radius = 0
+base_attack_rate = 0
+projectile_count = 0
+metadata/_custom_type_script = "uid://dfcdqhlmfb1af"
