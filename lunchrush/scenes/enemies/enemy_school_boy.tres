@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3 uid="uid://beo4ngnc42adq"]
+
+[ext_resource type="Script" uid="uid://bgosj8gj5owbj" path="res://resources/enemy_data.gd" id="1_n7thy"]
+
+[resource]
+script = ExtResource("1_n7thy")
+name = "School Boy"
+name_internal = "enemy_school_boy"
+base_movement_speed = 10
+base_hp = 100
+metadata/_custom_type_script = "uid://bgosj8gj5owbj"
