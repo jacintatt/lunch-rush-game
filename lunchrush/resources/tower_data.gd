@@ -2,7 +2,7 @@ class_name TowerData extends Resource
 
 @export var sprite_sheet: SpriteFrames
 
-@export var tower_name: String
+@export var name: String
 
 @export var base_cost: int
 @export var base_attack_radius: int
