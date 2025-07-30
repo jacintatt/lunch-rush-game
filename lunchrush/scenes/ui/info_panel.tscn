@@ -47,7 +47,7 @@ size_flags_horizontal = 6
 
 [node name="MoneyLabel" type="Label" parent="HBoxContainer/TextureRect/HBoxContainer/MarginContainer"]
 layout_mode = 2
-text = "$???"
+text = "$$$$$$"
 label_settings = SubResource("LabelSettings_rr1xh")
 vertical_alignment = 1
 
@@ -74,6 +74,6 @@ layout_mode = 2
 
 [node name="HealthLabel" type="Label" parent="HBoxContainer/TextureRect2/HBoxContainer/MarginContainer"]
 layout_mode = 2
-text = "Wave ?"
+text = "HP"
 label_settings = SubResource("LabelSettings_rr1xh")
 vertical_alignment = 1
