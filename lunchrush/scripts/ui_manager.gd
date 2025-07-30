@@ -4,7 +4,8 @@ extends Node
 @onready var HealthLabel: Label = $HBoxContainer/TextureRect2/HBoxContainer/MarginContainer/HealthLabel
 
 func _ready():
-	updateLabels()
+	#nothing 
+	return
 
 func updateLabels():
 	updateLabelMoney()
