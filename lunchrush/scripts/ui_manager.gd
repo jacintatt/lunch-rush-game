@@ -1,10 +1,10 @@
 extends Node
 
-@onready var MoneyLabel: Label = $HBoxContainer/TextureRect/HBoxContainer/MarginContainer/MoneyLabel
-@onready var HealthLabel: Label = $HBoxContainer/TextureRect2/HBoxContainer/MarginContainer/HealthLabel
+@onready var MoneyLabel: RichTextLabel = $HBoxContainer/SignMoney/MoneyLabel
+@onready var HealthLabel: RichTextLabel = $HBoxContainer/SignHealth/HealthLabel
 
 func _ready():
-	#nothing 
+	updateLabels() 
 	return
 
 func updateLabels():
